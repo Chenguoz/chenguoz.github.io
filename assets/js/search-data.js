@@ -50,6 +50,9 @@ ninja.data = [{
           section: "News",},{id: "news-one-paper-on-advertising-image-generation-was-accepted-to-www-25",
           title: 'One paper on advertising image generation was accepted to WWW’25.',
           description: "",
+          section: "News",},{id: "news-started-a-research-internship-at-tencent",
+          title: 'Started a Research Internship at Tencent.',
+          description: "",
           section: "News",},{
         id: 'social-email',
         title: 'email',
