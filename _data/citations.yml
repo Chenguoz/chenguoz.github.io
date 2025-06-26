@@ -1,15 +1,19 @@
 metadata:
-  last_updated: '2025-05-25'
+  last_updated: '2025-06-26'
 papers:
-  qc6CJjYAAAAJ:qyhmnyLat1gC:
-    title: Can quantum-mechanical description of physical reality be considered complete?
-    year: '1935'
-    citations: 26088
-  qc6CJjYAAAAJ:Hl4CZ0n6gBQC:
-    title: Uber einen die Erzeugung und Verwandlung des Lichtes betreffenden heurischen Gesichtpunkt
-    year: '1905'
-    citations: 19670
-  qc6CJjYAAAAJ:oqD4_j7ulsYC:
-    title: On the movement of small particles suspended in stationary liquids required by the molecular-kinetic theory of heat
-    year: '1905'
-    citations: 18940
+  4vrufuAAAAAJ:qjMakFHDy7sC:
+    title: CTR-Driven Advertising Image Generation with Multimodal Large Language Models
+    year: '2025'
+    citations: 1
+  4vrufuAAAAAJ:2osOgNQ5qMEC:
+    title: Exploring Sample Relationship for Few-shot Classification
+    year: '2025'
+    citations: 3
+  4vrufuAAAAAJ:u-x6o8ySG0sC:
+    title: Unsupervised Distribution-aware Keypoints Generation from 3D Point Clouds
+    year: '2024'
+    citations: 16
+  4vrufuAASAAAJ:u5HHmVD_uO8C:
+    title: 'PointSCNet: Point Cloud Structure and Correlation Learning based on Space-filling Curve-guided Sampling'
+    year: '2021'
+    citations: 14
