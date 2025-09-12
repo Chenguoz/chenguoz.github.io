@@ -8,12 +8,12 @@ papers:
   4vrufuAAAAAJ:2osOgNQ5qMEC:
     title: Exploring Sample Relationship for Few-shot Classification
     year: '2025'
-    citations: 3
+    citations: 5
   4vrufuAAAAAJ:u-x6o8ySG0sC:
     title: Unsupervised Distribution-aware Keypoints Generation from 3D Point Clouds
     year: '2024'
-    citations: 17
+    citations: 18
   4vrufuAASAAAJ:u5HHmVD_uO8C:
     title: 'PointSCNet: Point Cloud Structure and Correlation Learning based on Space-filling Curve-guided Sampling'
     year: '2021'
-    citations: 14
+    citations: 15
