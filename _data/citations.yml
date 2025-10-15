@@ -4,7 +4,7 @@ papers:
   4vrufuAAAAAJ:qjMakFHDy7sC:
     title: CTR-Driven Advertising Image Generation with Multimodal Large Language Models
     year: '2025'
-    citations: 2
+    citations: 5
   4vrufuAAAAAJ:2osOgNQ5qMEC:
     title: Exploring Sample Relationship for Few-shot Classification
     year: '2025'
@@ -16,4 +16,4 @@ papers:
   4vrufuAASAAAJ:u5HHmVD_uO8C:
     title: 'PointSCNet: Point Cloud Structure and Correlation Learning based on Space-filling Curve-guided Sampling'
     year: '2021'
-    citations: 15
+    citations: 17
