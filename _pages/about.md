@@ -2,7 +2,7 @@
 layout: about
 title: About
 permalink: /
-subtitle: Algorithm Engineer · Computer Vision Researcher · Master Student at HUST
+subtitle: Algorithm Researcher · Agentic RL · Shopee LLM Team
 
 profile:
   align: left
@@ -20,7 +20,6 @@ announcements:
 
 ---
 
-I am currently a master student at **Huazhong University of Science and Technology (HUST)**, an enthusiastic Algorithm Engineer on a mission to revolutionize the realms of AI, computer vision, and deep learning. My journey in technology is fueled by an insatiable curiosity and a relentless drive to explore the uncharted territories of innovation. My research interests include **few-shot learning**, **3D point cloud learning**, **vision-language models**, and **multimodal large language models**.
+I am currently an **Algorithm Researcher** on the **LLM Team at Shopee**, where I focus on **agentic reinforcement learning (Agentic RL)**. I received my master's degree from **Huazhong University of Science and Technology (HUST)**. My research interests include **Agentic RL**, **LLM agents**, **vision-language models**, **multimodal large language models**, and **computer vision**.
 
-During my internship, I worked as an **Algorithm Application Engineer** at **JD Retail, JD.COM**, where I collaborated with [Dr. Wei Feng](https://scholar.google.com.hk/citations?user=FvIAct4AAAAJ&hl=zh-CN&oi=sra) on developing cutting-edge advertising image generation algorithms based on Click-Through Rate (CTR) optimization. This experience enabled me to apply deep learning techniques in real-world scenarios and contribute to improving advertising effectiveness through innovative computer vision solutions.
-
+Previously, I interned at **Tencent Photon Studio Group**, where I worked on game-AI systems and AI bots for **LOLM**. I also worked as an **Algorithm Application Engineer Intern** at **JD Retail, JD.COM**, collaborating with [Dr. Wei Feng](https://scholar.google.com.hk/citations?user=FvIAct4AAAAJ&hl=zh-CN&oi=sra) on advertising image generation driven by Click-Through Rate (CTR) optimization. These experiences allowed me to apply machine learning research to real-world game and e-commerce applications.
