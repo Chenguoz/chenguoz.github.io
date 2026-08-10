@@ -57,39 +57,4 @@ $(document).ready(function () {
     trigger: "hover",
   });
 
-  // Auto-scroll homepage news while keeping native manual scrolling available.
-  const reducedMotion = window.matchMedia("(prefers-reduced-motion: reduce)");
-  document.querySelectorAll(".news-carousel").forEach((carousel) => {
-    const track = carousel.querySelector(".news-carousel-track");
-    if (!track) return;
-
-    let hovered = false;
-    let focused = false;
-    let pointerActive = false;
-    let previousTimestamp;
-    const pixelsPerSecond = 10;
-
-    carousel.addEventListener("mouseenter", () => (hovered = true));
-    carousel.addEventListener("mouseleave", () => (hovered = false));
-    carousel.addEventListener("focusin", () => (focused = true));
-    carousel.addEventListener("focusout", () => (focused = false));
-    carousel.addEventListener("pointerdown", () => (pointerActive = true));
-    carousel.addEventListener("pointerup", () => (pointerActive = false));
-    carousel.addEventListener("pointercancel", () => (pointerActive = false));
-
-    const autoScroll = (timestamp) => {
-      const paused = hovered || focused || pointerActive || reducedMotion.matches;
-      if (previousTimestamp !== undefined && !paused) {
-        carousel.scrollTop += ((timestamp - previousTimestamp) * pixelsPerSecond) / 1000;
-        const cycleHeight = track.scrollHeight / 2;
-        if (cycleHeight > 0 && carousel.scrollTop >= cycleHeight) {
-          carousel.scrollTop -= cycleHeight;
-        }
-      }
-      previousTimestamp = timestamp;
-      window.requestAnimationFrame(autoScroll);
-    };
-
-    window.requestAnimationFrame(autoScroll);
-  });
 });

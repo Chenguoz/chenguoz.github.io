@@ -4,6 +4,16 @@
 
 // Typography
 
+body,
+button,
+input,
+select,
+textarea,
+.tooltip,
+.popover {
+  font-family: "IBM Plex Sans", "Helvetica Neue", Arial, sans-serif;
+}
+
 p,
 h1,
 h2,
@@ -811,7 +821,7 @@ footer.sticky-bottom {
           color: #b78200;
           text-transform: capitalize;
           font-weight: bold;
-          font-family: Times, "Times New Roman", "Liberation Serif", serif;
+          font-family: inherit;
         }
       }
 
