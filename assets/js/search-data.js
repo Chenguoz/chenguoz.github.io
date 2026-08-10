@@ -53,6 +53,12 @@ ninja.data = [{
           section: "News",},{id: "news-started-a-research-internship-at-tencent",
           title: 'Started a Research Internship at Tencent.',
           description: "",
+          section: "News",},{id: "news-one-paper-on-few-shot-class-incremental-learning-was-accepted-to-cvpr-26",
+          title: 'One paper on few-shot class-incremental learning was accepted to CVPR’26.',
+          description: "",
+          section: "News",},{id: "news-one-paper-on-vision-language-prompt-learning-was-accepted-to-tcsvt-26",
+          title: 'One paper on vision-language prompt learning was accepted to TCSVT’26.',
+          description: "",
           section: "News",},{
         id: 'social-email',
         title: 'email',
