@@ -20,6 +20,6 @@ announcements:
 
 ---
 
-I am currently an **Algorithm Researcher** at **Shopee LLM Team**, where I focus on **agentic reinforcement learning (Agentic RL)**. I received my master's degree from **Huazhong University of Science and Technology (HUST)**. My research interests include **Agentic RL**, **LLM agents**, **vision-language models**, **multimodal large language models**, and **computer vision**.
+I am currently an **Algorithm Researcher** at **Shopee LLM Team**, where I focus on **agentic reinforcement learning (Agentic RL)**. I received my master's degree from **Huazhong University of Science and Technology (HUST)**. My research interests include **Agentic RL**, **LLM Agents**, **Vision-Language Models**, **Multimodal Large Language Models**, and **Computer Vision**.
 
 Previously, I was a research intern at **[LIGHTSPEED STUDIOS](https://www.lightspeed-studios.com/), Tencent**, mentored by [Youzhao Yang](https://scholar.google.com/citations?user=MOaJ_A0AAAAJ&hl=zh-CN&oi=ao). There, I developed reinforcement-learning-driven AI bots for **LOLM**, with an emphasis on human-like gameplay and engagement-oriented optimization to improve player retention and grow daily active users (DAU). I also interned at **JD Retail, JD.COM**, where I collaborated with [Dr. Wei Feng](https://scholar.google.com.hk/citations?user=FvIAct4AAAAJ&hl=zh-CN&oi=sra) to develop CTR-driven advertising image generation algorithms, translating multimodal learning research into production-facing e-commerce applications.

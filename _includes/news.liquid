@@ -23,7 +23,7 @@
     {% endcapture %}
 
     {% if include.limit and page.announcements.scrollable and news_size > 3 %}
-      <div class="news-carousel" aria-label="Latest news">
+      <div class="news-carousel" aria-label="Latest news" tabindex="0">
         <div class="news-carousel-track">
           <table class="table table-sm table-borderless">
             <tbody>{{ news_rows }}</tbody>

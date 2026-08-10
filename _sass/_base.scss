@@ -1198,40 +1198,27 @@ ninja-keys::part(ninja-input-wrapper) {
 .news-carousel {
   position: relative;
   height: 12rem;
-  overflow: hidden;
-
-  .news-carousel-track {
-    animation: news-auto-scroll 36s linear infinite;
-    will-change: transform;
-  }
-
-  &:hover .news-carousel-track,
-  &:focus-within .news-carousel-track {
-    animation-play-state: paused;
-  }
+  overflow-y: scroll;
+  scrollbar-color: var(--global-text-color-light) transparent;
+  scrollbar-width: thin;
 
   table {
     margin-bottom: 0;
   }
-}
 
-@keyframes news-auto-scroll {
-  from {
-    transform: translateY(0);
+  &::-webkit-scrollbar {
+    width: 8px;
   }
 
-  to {
-    transform: translateY(-50%);
+  &::-webkit-scrollbar-thumb {
+    background-color: var(--global-text-color-light);
+    border-radius: 4px;
   }
 }
 
 @media (prefers-reduced-motion: reduce) {
   .news-carousel {
     overflow-y: auto;
-
-    .news-carousel-track {
-      animation: none;
-    }
 
     table[aria-hidden="true"] {
       display: none;
