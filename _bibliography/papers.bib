@@ -1,6 +1,6 @@
 ---
 ---
-@string{CVPR = {IEEE Conference on Computer Vision and Pattern Recognition}}
+@string{CVPR = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition}}
 @string{ECCV = {European Conference on Computer Vision}}
 @string{ICCV = {International Conference on Computer Vision}}
 @string{IJCV = {International Journal of Computer Vision}}
@@ -9,7 +9,7 @@
 @string{TIP = {IEEE Transactions on Image Processing}}
 @string{TMM = {IEEE Transactions on Multimedia}}
 @string{NeurIPS = {Annual Conference on Neural Information Processing Systems}}
-@string{WWW = {International World Wide Web Conference}}
+@string{WWW = {Proceedings of the ACM on Web Conference 2025}}
 @string{PR = {Pattern Recognition}}
 @string{NN = {Neural Networks}}
 @string{TCSVT = {IEEE Transactions on Circuits and Systems for Video Technology}}
@@ -26,13 +26,15 @@
   google_scholar_id={zYLM7Y9cAGgC},
   code={https://github.com/Chenguoz/PromptCAD},
   selected={true},
+  preview={PromptCAD.png},
   bibtex_show={true},
   award_name={SCI, CCF Rank-B},
-  award={SCI, CCF Rank-B}
+  award={SCI, CCF Rank-B},
+  abstract={Prompt learning has emerged as an efficient paradigm for adapting vision-language models (VLMs), e.g., CLIP, to downstream tasks without extensive fine-tuning. However, existing methods still suffer from insufficient alignment between textual and visual representations. To address this limitation, we propose a Concept-guided Attention Distillation framework for prompting (PromptCAD), which systematically integrates semantic knowledge from Large Language Models (LLMs) to enhance cross-modal alignment. Our framework operates through three key phases: 1) Concept Generation and Refinement: We first leverage LLMs to generate comprehensive category descriptions, from which representative semantic concepts are selected via clustering while eliminating irrelevant information. 2) Concept-guided Attention Distillation: A novel distillation mechanism aligns concept-guided attention maps (derived from LLM-generated semantics) with prompt-induced attention maps, guiding the adaptation process and improving text-visual modality alignment. 3) Multi-perspective Inference: During inference, a self-attention pooling strategy dynamically aggregates semantically relevant features from diverse local regions, enabling effective concept-guided reasoning. Extensive experiments on 11 datasets demonstrate that our method significantly outperforms existing prompt learning approaches across various recognition tasks. Our code is publicly available at https://github.com/Chenguoz/PromptCAD.}
 }
 
 @inproceedings{yan2026sglc,
-  title={Semantic-Guided Global-Local Collaborative Prompt Learning for Few-Shot Class Incremental Learning},
+  title={Semantic-Guided Global-Local Collaborative Prompt Learning for Few-Shot Class-Incremental Learning},
   author={Yan, Yongxin and Chen, Weisen and Chen, Xingye and Shao, Yuanjie and Zuo, Zhengrong and Tan, Wenming and Ren, Wenqi and Gao, Changxin and Sang, Nong},
   booktitle=CVPR,
   pages={5511--5520},
@@ -41,15 +43,18 @@
   google_scholar_id={IjCSPb-OGe4C},
   pdf={https://openaccess.thecvf.com/content/CVPR2026/papers/Yan_Semantic-Guided_Global-Local_Collaborative_Prompt_Learning_for_Few-Shot_Class_Incremental_Learning_CVPR_2026_paper.pdf},
   selected={true},
+  preview={SGLC.png},
   bibtex_show={true},
   award_name={CCF Rank-A},
-  award={CCF Rank-A}
+  award={CCF Rank-A},
+  abstract={Few-Shot Class-Incremental Learning (FSCIL) poses a critical challenge in machine learning, requiring models to continuously integrate novel classes with limited samples while preserving knowledge of previously seen classes. While existing FSCIL approaches have demonstrated promising results, they still suffer from catastrophic forgetting and few-shot overfitting due to the challenge of balancing old knowledge retention with new knowledge acquisition. To address these challenges, we propose an innovative Semantic-Guided Global-Local Collaborative Prompt Learning (SGLC) framework. Built upon powerful pre-trained Vision-Language Models (VLMs), the framework first introduces a dual-alignment mechanism: globally aligning visual features with visual-textual prototypes and locally aligning multi-view visual features with local textual attribute features, which facilitates effective knowledge learning while preserving existing knowledge via frozen prototypes of previous classes. Furthermore, to alleviate overfitting, we incorporate Large Language Models (LLMs) to generate semantically rich textual descriptions, which simultaneously guide both global and local prompt learning through knowledge distillation. Extensive experiments on the miniImageNet, CIFAR-100, and CUB200 datasets demonstrate that SGLC performs favorably against the state-of-the-art methods.}
 }
 
-@article{chen2025ctr,
+@inproceedings{chen2025ctr,
   title={CTR-Driven Advertising Image Generation with Multimodal Large Language Models},
-  author={Chen, Xingye and Feng, Wei and Du, Zhenbang and Wang, Weizhen and Chen, Yanyin and Wang, Haohan and Liu, Linkai and Li, Yaoyu and Zhao, Jinyuan and Li, Yu and others},
-  journal=WWW,
+  author={Chen, Xingye and Feng, Wei and Du, Zhenbang and Wang, Weizhen and Chen, Yanyin and Wang, Haohan and Liu, Linkai and Li, Yaoyu and Zhao, Jinyuan and Li, Yu and Zhang, Zheng and Lv, Jingjing and Shen, Junjie and Lin, Zhangang and Shao, Jingping and Shao, Yuanjie and You, Xinge and Gao, Changxin and Sang, Nong},
+  booktitle=WWW,
+  pages={2262--2275},
   arxiv={2502.06823},
   year={2025},
   abbr={WWW},
@@ -59,7 +64,8 @@
   preview={CTR.png},
   bibtex_show={true},
   award_name={CCF Rank-A},
-  award={CCF Rank-A}
+  award={CCF Rank-A},
+  abstract={In web data, advertising images are crucial for capturing user attention and improving advertising effectiveness. Most existing methods generate background for products primarily focus on the aesthetic quality, which may fail to achieve satisfactory online performance. To address this limitation, we explore the use of Multimodal Large Language Models (MLLMs) for generating advertising images by optimizing for Click-Through Rate (CTR) as the primary objective. Firstly, we build targeted pre-training tasks, and leverage a large-scale e-commerce multimodal dataset to equip MLLMs with initial capabilities for advertising image generation tasks. To further improve the CTR of generated images, we propose a novel reward model to fine-tune pre-trained MLLMs through Reinforcement Learning (RL), which can jointly utilize multimodal features and accurately reflect user click preferences. Meanwhile, a product-centric preference optimization strategy is developed to ensure that the generated background content aligns with the product characteristics after fine-tuning, enhancing the overall relevance and effectiveness of the advertising images. Extensive experiments have demonstrated that our method achieves state-of-the-art performance in both online and offline metrics. Our code and pre-trained models are publicly available at https://github.com/Chenguoz/CAIG.}
 }
 
 @article{chen2025exploring,
@@ -77,7 +83,8 @@
   preview={SRE.png},
   bibtex_show={true},
   award_name={SCI, IF=7.6, CCF Rank-B},
-  award={SCI, IF=7.6, CCF Rank-B}
+  award={SCI, IF=7.6, CCF Rank-B},
+  abstract={Few-shot classification (FSC) is a challenging problem, which aims to identify novel classes with limited samples. Most existing methods employ vanilla transfer learning or episodic meta-training to learn a feature extractor, and then measure the similarity between the query image and the few support examples of novel classes. However, these approaches merely learn feature representations from individual images, overlooking the exploration of the interrelationships among images. This neglect can hinder the attainment of more discriminative feature representations, thus limiting the potential improvement of few-shot classification performance. To address this issue, we propose a Sample Relationship Exploration (SRE) module comprising the Sample-level Attention (SA), Explicit Guidance (EG) and Channel-wise Adaptive Fusion (CAF) components, to learn discriminative category-related features. Specifically, we first employ the SA component to explore the similarity relationships among samples and obtain aggregated features of similar samples. Furthermore, to enhance the robustness of these features, we introduce the EG component to explicitly guide the learning of sample relationships by providing an ideal affinity map among samples. Finally, the CAF component is adopted to perform weighted fusion of the original features and the aggregated features, yielding category-related embeddings. The proposed method is a plug-and-play module which can be embedded into both transfer learning and meta-learning based few-shot classification frameworks. Extensive experiments on benchmark datasets show that the proposed module can effectively improve the performance over baseline models, and also perform competitively against the state-of-the-art algorithms. The source code is available at https://github.com/Chenguoz/SRE.}
 }
 
 @article{wu2024unsupervised,
@@ -95,7 +102,8 @@
   preview={Keypoints.png},
   bibtex_show={true},
   award_name={SCI, IF=7.9, CCF Rank-B},
-  award={SCI, IF=7.9, CCF Rank-B}
+  award={SCI, IF=7.9, CCF Rank-B},
+  abstract={Keypoints extraction from 3D objects is a fundamental task in point cloud processing. The ideal keypoints should be an ordered and well-aligned set of points that effectively reflect the shape and structure of the object. To this end, this paper proposes an unsupervised 3D point cloud keypoints generation network with the consideration of the probability distribution of keypoints and spatial distribution among keypoints. The network downsamples and groups the 3D point cloud, obtaining local features of the point cloud. The local features are leveraged to explicitly learn the mixture probability distribution of keypoint position. A composite loss function that comprehensively considers shape similarity, point importance, and geometric constraint is proposed to guide the network in generating keypoints with semantic consistency and regular spatial distribution. The experimental results and quantitative comparisons on the ShapeNet and KeypointNet datasets demonstrate that the proposed method achieves ordered, well-aligned, and robust keypoints generation for 3D point clouds. The source code of the proposed method is available at https://github.com/djzgroup/Keypoints.}
 }
 
 @article{chen2021pointscnet,
@@ -115,5 +123,6 @@
   preview={PointSCNet.png},
   bibtex_show={true},
   award_name={SCI},
-  award={SCI}
+  award={SCI},
+  abstract={Geometrical structures and the internal local region relationship, such as symmetry, regular array, junction, etc., are essential for understanding a 3D shape. This paper proposes a point cloud feature extraction network named PointSCNet, to capture the geometrical structure information and local region correlation information of a point cloud. The PointSCNet consists of three main modules: the space-filling curve-guided sampling module, the information fusion module, and the channel-spatial attention module. The space-filling curve-guided sampling module uses Z-order curve coding to sample points that contain geometrical correlation. The information fusion module uses a correlation tensor and a set of skip connections to fuse the structure and correlation information. The channel-spatial attention module enhances the representation of key points and crucial feature channels to refine the network. The proposed PointSCNet is evaluated on shape classification and part segmentation tasks. The experimental results demonstrate that the PointSCNet outperforms or is on par with state-of-the-art methods by learning the structure and correlation of point clouds effectively.}
 }

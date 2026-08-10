@@ -1,19 +1,27 @@
 metadata:
-  last_updated: '2025-08-08'
+  last_updated: '2026-08-10'
 papers:
+  4vrufuAAAAAJ:zYLM7Y9cAGgC:
+    title: Semantic Concept-guided Attention Distillation for Vision-Language Models
+    year: '2026'
+    citations: 0
+  4vrufuAAAAAJ:IjCSPb-OGe4C:
+    title: Semantic-Guided Global-Local Collaborative Prompt Learning for Few-Shot Class-Incremental Learning
+    year: '2026'
+    citations: 0
   4vrufuAAAAAJ:qjMakFHDy7sC:
     title: CTR-Driven Advertising Image Generation with Multimodal Large Language Models
     year: '2025'
-    citations: 10
+    citations: 11
   4vrufuAAAAAJ:2osOgNQ5qMEC:
     title: Exploring Sample Relationship for Few-shot Classification
     year: '2025'
-    citations: 13
+    citations: 17
   4vrufuAAAAAJ:u-x6o8ySG0sC:
     title: Unsupervised Distribution-aware Keypoints Generation from 3D Point Clouds
     year: '2024'
-    citations: 26
-  4vrufuAASAAAJ:u5HHmVD_uO8C:
+    citations: 29
+  4vrufuAAAAAJ:u5HHmVD_uO8C:
     title: 'PointSCNet: Point Cloud Structure and Correlation Learning based on Space-filling Curve-guided Sampling'
     year: '2021'
     citations: 21
